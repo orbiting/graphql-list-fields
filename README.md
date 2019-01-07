@@ -1,7 +1,6 @@
 # graphql-list-fields
-[![Build Status](https://travis-ci.org/jakepusateri/graphql-list-fields.svg?branch=master)](https://travis-ci.org/jakepusateri/graphql-list-fields)
-[![npm version](https://badge.fury.io/js/graphql-list-fields.svg)](https://badge.fury.io/js/graphql-list-fields)
-[![Coverage Status](https://coveralls.io/repos/github/jakepusateri/graphql-list-fields/badge.svg?branch=master)](https://coveralls.io/github/jakepusateri/graphql-list-fields?branch=master)
+
+This is a fork of: [jakepusateri/graphql-list-field](https://github.com/jakepusateri/graphql-list-fields) which adds named-inline-fragements (see description below). If the [PR](https://github.com/jakepusateri/graphql-list-fields/pull/15) is merged into upstream, we'll get rid of the fork again.
 
 When implementing a GraphQL server, it can be useful to know the list of fields being queried on
 a given type. This module takes a GraphQLResolveInfo object and returns a list of fields.
